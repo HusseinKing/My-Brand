@@ -11,11 +11,13 @@ import bg from "../assets/images/banner-bg.png"
 function Skills() {
   return (
     <>
-      <div id="skills" style={{backgroundImage: `url(${bg})`}} className="wrapper h-full bg-no-repeat bg-center bg-cover p-16 lg:p-4">
+      <div id="skills" style={{ backgroundImage: `url(${bg})` }} className="wrapper h-full bg-no-repeat bg-center bg-cover p-16 lg:p-4">
         <div className="skills-wrapper text-center text-white bg-[#171717]  p-10 rounded-[50px] lg:p-2">
-          <h1 className="text-4xl ">Skills</h1>
-          <p className="text-lg py-3">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          <h1 className="text-4xl font-bold mb-4">Technical Skills</h1>
+          <p className="text-lg py-3 max-w-2xl mx-auto">
+            Specialized in modern web technologies and frameworks, with a focus on
+            creating scalable, efficient, and user-friendly applications. Experienced
+            in both frontend and backend development.
           </p>
           <div className="box flex  justify-between  items-center bg-[#171717] my-6">
             <Swiper
