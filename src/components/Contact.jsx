@@ -23,7 +23,7 @@ function Contact() {
     e.preventDefault();
     setStatus('sending');
 
-    // Replace these with your actual EmailJS credentials
+    // EmailJS credentials
     const serviceID = 'YOUR_SERVICE_ID';
     const templateID = 'YOUR_TEMPLATE_ID';
     const publicKey = 'YOUR_PUBLIC_KEY';
