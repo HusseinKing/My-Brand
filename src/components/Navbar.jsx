@@ -46,15 +46,15 @@ function Navbar() {
           </ul>
 
           <div className="icon text-lg flex gap-4  lg:gap-8 lg:my-10">
-            <Link to="https://twitter.com/" target="_blank">
+            <Link to="https://twitter.com/HARERIMANA74206" target="_blank">
               <i className="fa-brands fa-twitter border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
             </Link>
 
-            <Link to="https://www.instagram.com/" target="_blank">
+            <Link to="https://www.instagram.com/hussein_harer" target="_blank">
               <i className="fa-brands fa-instagram border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
             </Link>
             <Link
-              to="https://github.com/Reayhs/react-tailwind-portfolio"
+              to="https://github.com/HusseinKing"
               target="_blank"
             >
               <i className="fa-brands fa-github border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
