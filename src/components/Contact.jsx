@@ -33,7 +33,7 @@ function Contact() {
       from_email: formData.email,
       phone: formData.phone,
       message: formData.message,
-      to_name: 'Hussein', // The name you want to receive emails as
+      to_name: 'Hussein', 
     };
 
     emailjs.send(serviceID, templateID, templateParams, publicKey)
